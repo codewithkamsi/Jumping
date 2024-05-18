@@ -14,11 +14,37 @@ html, body{
   background-position: center;
 }
 .smallroundbox{
-  width: 53px;
-  height: 53px;
-  background-color: brown;
+  width: 40px;
+  height: 93px;
+  background: url('./assets/girl.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
   border-radius: 100%;
   position: absolute;
-  bottom: 50px;
-  left:50px;
 }
+
+.secondsmallroundbox{
+  width: 100px;
+  height: 50px;
+  /* background-color: rgb(255, 238, 0); */
+  background: url('./assets/car1.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  bottom: 50px;
+}
+.thirdsmallroundbox{
+  width: 80px;
+  height: 40px;
+  /* background-color: rgb(123, 255, 0); */
+  background: url('./assets/car2.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  bottom: 50px;
+  
+}
+
